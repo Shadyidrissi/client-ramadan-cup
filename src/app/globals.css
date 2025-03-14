@@ -1,0 +1,395 @@
+@import "tailwindcss";
+
+
+/* ! Nav bar */
+#navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #49AEC6;
+}
+#navbar>img{
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: none;
+}
+/* ! Nav bar */
+/* ! Loading */
+
+#loading{
+  background-image: url(https://urbanpitch.com/wp-content/uploads/2018/08/36555600745_ca7a96a123_o.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 837px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#loading>h1{
+  font-size: 42px;
+  font-weight: 800;
+  color: white;
+  background-color: #49AEC6;
+  padding: 5px 10px ;
+}
+#loading>p{
+  background-color: white;
+  padding: 5px 10px ;
+  font-size: 19px;
+  font-weight: 700;
+  color: #49AEC6;
+}
+
+/* ! Loading */
+/* ! Info */
+
+#info-cup{
+  min-height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* ? Card */
+
+#card-info{
+  height: 300px;
+  width: 350px;
+  background-color: #49AEC6;
+  margin: 5px;
+}
+#card-info>img{
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#card-info>ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 20px;
+}
+#card-info>ul>h3{
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+#card-info>ul>button>svg{
+  color: white;
+  fill: white;
+  padding: 3px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#card-info>ul>button>svg:hover{
+  background-color: white;
+  color: #49AEC6;
+  transform: rotate(-45deg);
+}
+
+/* ? Card */
+
+/* ! Info */ 
+/* ! Table */
+
+#table{
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#table>h1{
+  font-size: 33px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+#table>div{
+  width: 80%;
+  min-height:300px;
+  min-width: 800px;
+}
+#bbody{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  height: 50px;
+  background-color: #49AEC6;
+  margin: 5px 0;
+}
+#tbody{
+  background-color: #12334A;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  height: 50px;
+  margin: 5px 0;
+  color: white;
+}
+#logo{
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+
+}
+#name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  width: 150px;
+  height: 100%;
+}
+#point{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50px;
+  font-size: 20px ;
+  font-weight: 600;
+}
+#l,#w,#d{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 18px ;
+  font-weight: 600;
+  width: 30px;
+}
+#point,#matches,#goal,#conceded{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50px;
+  font-size: 20px ;
+  font-weight: 600;
+}
+
+
+/* ! Table */
+/* ! Next Match */
+
+#next-match{
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#next-match>h1{
+  font-size: 33px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+#card-match{
+  width: 50%;
+  margin: 20px 0;
+  min-height:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  flex-direction: column;
+}
+#card-match>div:nth-child(1){
+  height: 150px;
+  background-color: #12334A;
+}
+#card-match>div:nth-child(2){
+  height: 70px;
+  background-color: #49AEC6;
+}
+#card-match>div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+#card-match>div>p{
+  font-size: 33px;
+  font-weight: 900;
+  color: white;
+}
+#card-match>div>img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: white;
+  object-fit: cover ;
+}
+#card-match>div>ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+#card-match>div>ul>svg{
+  color: rgb(41, 88, 126);
+}
+
+/* ! Next Match */
+/* ! Players */
+
+#players{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#players-header{
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+#players-header>h1{
+  font-size: 33px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+#players-header>p{
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 10px 0;
+}
+#players-header>div{
+  display: flex;
+  justify-content: center;
+  align-items: start ;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 30px;
+}
+#players-header>div>li{
+  font-size: 18px;
+  font-weight: 600;
+  margin:  10px;
+}
+#players-header>div>li>span{
+  padding: 5px 15px;
+  border-radius: 50%;
+  border: none;
+  margin: 0 5px;
+  border: 1px solid #12334A;
+}
+#players-body{
+  min-height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+#players-body>div>h4{
+  padding: 5px 10px ;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 10px 0;
+}
+#players-body>div>ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+#players-body>div>ul>li{
+  font-size: 18px;
+  color: #12334A;
+  margin: 5px;
+  font-weight: 600;
+}
+
+/* ! Players */
+/* ! Matches */
+
+#matches{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#matches-header{
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+#matches-header>h1{
+  font-size: 33px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+#matches-header>p{
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 10px 0;
+}
+#matches-header>div{
+  display: flex;
+  justify-content: center;
+  align-items: start ;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 30px;
+}
+#matches-header>div>li{
+  font-size: 20px;
+  font-weight: 600;
+  margin:  10px;
+}
+#matches-header>div>li>span{
+  border: none;
+  margin: 0 5px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#matches-body{
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  justify-content: center;
+  width: 80%;
+}
+#matches-body>h1{
+  font-size: 33px;
+  font-weight: 800;
+}
+#matches-body>div{
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  width: 100%;
+}
+
+/* ! Matches */
