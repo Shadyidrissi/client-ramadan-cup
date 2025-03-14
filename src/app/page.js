@@ -229,7 +229,7 @@ export default function Home() {
           </div>
         ) : (
           <p>لم يتم العثور على أي مباريات قادمة.</p>
-        )}
+        )} 
       </div>
     </>
   );
