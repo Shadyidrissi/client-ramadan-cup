@@ -8,7 +8,7 @@ function Page() {
     useEffect(() => {
         // Fetch all matches data when the component mounts
         axios
-            .get("https://api-ramadan-cup.vercel.app/show_all_matches") // Replace with the correct API URL
+            .get("https://api-ramadan-cup-ten.vercel.app/show_all_matches") // Replace with the correct API URL
             .then((response) => {
                 // Sort matches by date (most recent first)
                 const sortedMatches = response.data.sort((a, b) => new Date(b.time) - new Date(a.time));

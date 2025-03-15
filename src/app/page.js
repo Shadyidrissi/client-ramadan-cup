@@ -13,7 +13,7 @@ export default function Home() {
   useEffect(() => {
     // Fetch the table data using axios
     axios
-      .get("https://api-ramadan-cup.vercel.app/clubs-ranking")
+      .get("https://api-ramadan-cup-ten.vercel.app/clubs-ranking")
       .then((response) => {
         setTableData(response.data);
       })
@@ -21,7 +21,7 @@ export default function Home() {
 
     // Fetch all match data using axios
     axios
-      .get("https://api-ramadan-cup.vercel.app/show_all_matches")
+      .get("https://api-ramadan-cup-ten.vercel.app/show_all_matches")
       .then((response) => {
         // Find the next match by filtering out past matches
         const upcomingMatches = response.data.filter(
