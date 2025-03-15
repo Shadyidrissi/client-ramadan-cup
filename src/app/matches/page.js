@@ -70,7 +70,10 @@ function Page() {
                             </div>
                         ))
                     ) : (
-                        <p>No matches found.</p>
+                        <div id='mm'>
+                            <span class="loader-match"></span>
+                            <p>No matches found.</p>
+                        </div>
                     )}
                 </div>
             </div>
