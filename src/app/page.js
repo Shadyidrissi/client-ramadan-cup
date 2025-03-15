@@ -43,11 +43,6 @@ export default function Home() {
     <>
       {/* Loading Page */}
       <div id="loading">
-        <img
-          src="https://your-logo-url.com/logo.png"
-          alt="Loading Logo"
-          style={{ width: '100px', height: '100px' }} // Adjust as needed
-        />
         <h1>مرحباً بكم في بطولة رمضان</h1>
         <p>Loading the latest updates...</p>
       </div>
