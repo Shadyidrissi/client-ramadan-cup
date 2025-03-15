@@ -418,3 +418,98 @@
   color: white;
 }
 /* ! Footer */
+
+body {
+  overflow-x: hidden;
+}
+@media all and (min-width: 375px) and (max-width: 629px){
+  #table > div {
+    margin-left: 400px;
+  }
+}
+@media screen and (max-width: 653px) {
+  #card-match {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 855px) {
+  #table {
+    overflow-x: scroll;
+    width: 100%;
+  }
+  #table > div {
+    width: 100%;
+    min-height: 300px;
+    min-width: 800px;
+    /* margin-left: 400px; */
+  }
+  #bbody {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    background-color: #49aec6;
+    margin: 5px 0;
+  }
+  #tbody {
+    background-color: #12334a;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin: 5px 0;
+    color: white;
+  }
+  #logo {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+  }
+  #name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    width: 90px;
+    height: 100%;
+  }
+  #point {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  #l,
+  #w,
+  #d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    width: 10px;
+  }
+  #point,
+  #matches,
+  #goal,
+  #conceded {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

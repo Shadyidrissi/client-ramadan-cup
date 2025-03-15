@@ -30,31 +30,31 @@ function Page() {
                 <div>
                     <h4 style={{ backgroundColor: "black", color: "white", padding: "10px" }}>اللاعبون الجيدون</h4>
                     <ul>
-                        <li>شادي</li>
-                        <li>علي</li>
-                        <li>معاذ</li>
-                        <li>زيكو</li>
-                        <li>بسلة</li>
+                        <li>Name</li>
+                        <li>Name</li>
+                        <li>Name</li>
+                        <li>Name</li>
+                        <li>Name</li>
                     </ul>
                 </div>
                 <div>
                     <h4 style={{ backgroundColor: "yellow", padding: "10px" }}>اللاعبون المتوسطون</h4>
                     <ul>
-                        <li>سامي</li>
-                        <li>كمال</li>
-                        <li>يونس</li>
-                        <li>سيف</li>
-                        <li>جواد</li>
+                        <li>Name</li>
+                        <li>Name</li>
+                        <li>Name</li>
+                        <li>Name</li>
+                        <li>Name</li>
                     </ul>
                 </div>
                 <div>
                     <h4 style={{ backgroundColor: "red", color: "white", padding: "10px" }}>اللاعبون الضعيفون</h4>
                     <ul>
-                        <li>عماد</li>
-                        <li>مراد</li>
-                        <li>فيصل</li>
-                        <li>سعيد</li>
-                        <li>طه</li>
+                        <li>Name</li>
+                        <li>Name</li>
+                        <li>Name</li>
+                        <li>Name</li>
+                        <li>Name</li>
                     </ul>
                 </div>
             </div>
