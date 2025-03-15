@@ -46,7 +46,7 @@ function Page() {
                 <div>
                     {matches.length > 0 ? (
                         matches.map((match, index) => (
-                            <div key={index} id="card-match" style={{ width: "80%" }}>
+                            <div key={index} id="card-match" >
                                 <div>
                                     <img src={match.logoA || "https://img.freepik.com/vecteurs-libre/design-logo-modele_1195-105.jpg"} />
                                     <p>{match.scoreA}</p>

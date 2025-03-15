@@ -427,6 +427,12 @@ body {
     margin-left: 400px;
   }
 }
+@media screen and (max-width: 525px) {
+  #matches-body {
+    
+    width: 100%;
+  }
+}
 @media screen and (max-width: 653px) {
   #card-match {
     width: 90%;
