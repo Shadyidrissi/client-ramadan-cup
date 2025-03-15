@@ -131,7 +131,7 @@ export default function Home() {
           </ul>
         </div> */}
       </div>
-
+          <hr/>
       <div id="table">
         <h1>جدول الترتيب</h1>
         <div>
@@ -169,7 +169,7 @@ export default function Home() {
           )}
         </div>
       </div>
-
+          <hr/>
       <div id="next-match">
         <h1>المباراة القادمة</h1>
         {nextMatch ? (

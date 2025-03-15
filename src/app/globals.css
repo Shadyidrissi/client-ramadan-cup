@@ -1,15 +1,14 @@
 @import "tailwindcss";
 
-
 /* ! Nav bar */
-#navbar{
+#navbar {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100px;
-  background-color: #49AEC6;
+  background-color: #49aec6;
 }
-#navbar>img{
+#navbar > img {
   height: 90px;
   width: 90px;
   border-radius: 50%;
@@ -19,7 +18,7 @@
 /* ! Nav bar */
 /* ! Loading */
 
-#loading{
+#loading {
   background-image: url(https://urbanpitch.com/wp-content/uploads/2018/08/36555600745_ca7a96a123_o.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,25 +30,25 @@
   justify-content: center;
   flex-direction: column;
 }
-#loading>h1{
+#loading > h1 {
   font-size: 42px;
   font-weight: 800;
   color: white;
-  background-color: #49AEC6;
-  padding: 5px 10px ;
+  background-color: #49aec6;
+  padding: 5px 10px;
 }
-#loading>p{
+#loading > p {
   background-color: white;
-  padding: 5px 10px ;
+  padding: 5px 10px;
   font-size: 19px;
   font-weight: 700;
-  color: #49AEC6;
+  color: #49aec6;
 }
 
 /* ! Loading */
 /* ! Info */
 
-#info-cup{
+#info-cup {
   min-height: 600px;
   display: flex;
   justify-content: space-evenly;
@@ -59,76 +58,76 @@
 
 /* ? Card */
 
-#card-info{
+#card-info {
   height: 300px;
   width: 350px;
-  background-color: #49AEC6;
+  background-color: #49aec6;
   margin: 5px;
 }
-#card-info>img{
+#card-info > img {
   height: 250px;
   width: 100%;
   object-fit: cover;
   object-position: center;
 }
-#card-info>ul{
+#card-info > ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 50px;
   padding: 0 20px;
 }
-#card-info>ul>h3{
+#card-info > ul > h3 {
   font-size: 22px;
   font-weight: 700;
   color: white;
 }
-#card-info>ul>button>svg{
+#card-info > ul > button > svg {
   color: white;
   fill: white;
   padding: 3px;
   border-radius: 50%;
   cursor: pointer;
 }
-#card-info>ul>button>svg:hover{
+#card-info > ul > button > svg:hover {
   background-color: white;
-  color: #49AEC6;
+  color: #49aec6;
   transform: rotate(-45deg);
 }
 
 /* ? Card */
 
-/* ! Info */ 
+/* ! Info */
 /* ! Table */
 
-#table{
+#table {
   min-height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-#table>h1{
+#table > h1 {
   font-size: 33px;
   font-weight: 700;
   margin: 10px 0;
 }
-#table>div{
+#table > div {
   width: 80%;
-  min-height:300px;
+  min-height: 300px;
   min-width: 800px;
 }
-#bbody{
+#bbody {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   list-style: none;
   height: 50px;
-  background-color: #49AEC6;
+  background-color: #49aec6;
   margin: 5px 0;
 }
-#tbody{
-  background-color: #12334A;
+#tbody {
+  background-color: #12334a;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -137,7 +136,7 @@
   margin: 5px 0;
   color: white;
 }
-#logo{
+#logo {
   width: 45px;
   height: 45px;
   object-fit: cover;
@@ -146,9 +145,8 @@
   justify-content: center;
   align-items: center;
   font-weight: 700;
-
 }
-#name{
+#name {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,86 +154,90 @@
   width: 150px;
   height: 100%;
 }
-#point{
+#point {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 50px;
-  font-size: 20px ;
+  font-size: 20px;
   font-weight: 600;
 }
-#l,#w,#d{
+#l,
+#w,
+#d {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  font-size: 18px ;
+  font-size: 18px;
   font-weight: 600;
   width: 30px;
 }
-#point,#matches,#goal,#conceded{
+#point,
+#matches,
+#goal,
+#conceded {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 50px;
-  font-size: 20px ;
+  font-size: 20px;
   font-weight: 600;
 }
-
 
 /* ! Table */
 /* ! Next Match */
 
-#next-match{
+#next-match {
   min-height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-#next-match>h1{
+#next-match > h1 {
   font-size: 33px;
   font-weight: 700;
   margin: 10px 0;
 }
-#card-match{
+#card-match {
   width: 50%;
   margin: 20px 0;
-  min-height:300px;
+  min-height: 300px;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   flex-direction: column;
 }
-#card-match>div:nth-child(1){
+#card-match > div:nth-child(1) {
   height: 150px;
-  background-color: #12334A;
+  background-color: #12334a;
 }
-#card-match>div:nth-child(2){
+#card-match > div:nth-child(2) {
   height: 70px;
-  background-color: #49AEC6;
+  background-color: #49aec6;
 }
-#card-match>div{
+#card-match > div {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
 }
-#card-match>div>p{
+#card-match > div > p {
   font-size: 33px;
   font-weight: 900;
   color: white;
 }
-#card-match>div>img{
+#card-match > div > img {
   height: 100px;
   width: 100px;
   border-radius: 50%;
   background-color: white;
-  object-fit: cover ;
+  object-fit: cover;
 }
-#card-match>div>ul{
+#card-match > div > ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -243,21 +245,20 @@
   font-size: 16px;
   font-weight: 600;
 }
-#card-match>div>ul>svg{
+#card-match > div > ul > svg {
   color: rgb(41, 88, 126);
 }
 
 /* ! Next Match */
 /* ! Players */
 
-#players{
-
+#players {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-#players-header{
+#players-header {
   min-height: 400px;
   display: flex;
   justify-content: center;
@@ -265,37 +266,37 @@
   flex-direction: column;
   width: 80%;
 }
-#players-header>h1{
+#players-header > h1 {
   font-size: 33px;
   font-weight: 800;
   margin: 10px 0;
 }
-#players-header>p{
+#players-header > p {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
   margin: 10px 0;
 }
-#players-header>div{
+#players-header > div {
   display: flex;
   justify-content: center;
-  align-items: start ;
+  align-items: start;
   flex-direction: column;
   width: 70%;
   margin-top: 30px;
 }
-#players-header>div>li{
+#players-header > div > li {
   font-size: 18px;
   font-weight: 600;
-  margin:  10px;
+  margin: 10px;
 }
-#players-header>div>li>span{
+#players-header > div > li > span {
   padding: 5px 15px;
   border-radius: 50%;
   border: none;
   margin: 0 5px;
-  border: 1px solid #12334A;
+  border: 1px solid #12334a;
 }
-#players-body{
+#players-body {
   min-height: 400px;
   display: flex;
   justify-content: space-evenly;
@@ -303,22 +304,22 @@
   flex-wrap: wrap;
   width: 80%;
 }
-#players-body>div>h4{
-  padding: 5px 10px ;
+#players-body > div > h4 {
+  padding: 5px 10px;
   font-size: 28px;
   font-weight: 900;
   margin: 10px 0;
 }
-#players-body>div>ul{
+#players-body > div > ul {
   list-style: none;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: center;
 }
-#players-body>div>ul>li{
+#players-body > div > ul > li {
   font-size: 18px;
-  color: #12334A;
+  color: #12334a;
   margin: 5px;
   font-weight: 600;
 }
@@ -326,13 +327,13 @@
 /* ! Players */
 /* ! Matches */
 
-#matches{
+#matches {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-#matches-header{
+#matches-header {
   min-height: 400px;
   display: flex;
   justify-content: center;
@@ -340,49 +341,49 @@
   flex-direction: column;
   width: 80%;
 }
-#matches-header>h1{
+#matches-header > h1 {
   font-size: 33px;
   font-weight: 800;
   margin: 10px 0;
 }
-#matches-header>p{
+#matches-header > p {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
   margin: 10px 0;
 }
-#matches-header>div{
+#matches-header > div {
   display: flex;
   justify-content: center;
-  align-items: start ;
+  align-items: start;
   flex-direction: column;
   width: 70%;
   margin-top: 30px;
 }
-#matches-header>div>li{
+#matches-header > div > li {
   font-size: 20px;
   font-weight: 600;
-  margin:  10px;
+  margin: 10px;
 }
-#matches-header>div>li>span{
+#matches-header > div > li > span {
   border: none;
   margin: 0 5px;
   font-size: 20px;
   font-weight: 800;
 }
 
-#matches-body{
+#matches-body {
   min-height: 400px;
   display: flex;
   flex-direction: column;
-  align-items:center ;
+  align-items: center;
   justify-content: center;
   width: 80%;
 }
-#matches-body>h1{
+#matches-body > h1 {
   font-size: 33px;
   font-weight: 800;
 }
-#matches-body>div{
+#matches-body > div {
   min-height: 250px;
   display: flex;
   justify-content: center;
@@ -393,3 +394,27 @@
 }
 
 /* ! Matches */
+/* ! Footer */
+#footer {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #215981a8;
+}
+#footer > img {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+}
+#copy-right {
+  background-color: #215981da;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+}
+/* ! Footer */

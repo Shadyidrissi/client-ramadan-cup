@@ -18,7 +18,7 @@ function Page() {
     }, []);
 
     return (
-        <div id="matches" style={{ width: "80%" }}>
+        <div id="matches" style={{ width: "100%" }}>
             <div id="matches-header" style={{ direction: "rtl", textAlign: "right" }}>
                 <h1>قوانين المباريات</h1>
                 <p>
