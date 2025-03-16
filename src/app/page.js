@@ -66,7 +66,7 @@ export default function Home() {
                 <a href="/players">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
+                    color="white"
                     viewBox="0 0 24 24"
                     strokeWidth="1.5"
                     stroke="currentColor"
@@ -92,7 +92,7 @@ export default function Home() {
                 <a href="/matches">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
+                    color="white"
                     viewBox="0 0 24 24"
                     strokeWidth="1.5"
                     stroke="currentColor"
